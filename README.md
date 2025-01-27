@@ -61,23 +61,21 @@ La aplicación será visible en `http://<IP_PUBLICA>:9080`
 ---
 ## **Bloque 4: Despliegue de una aplicación basada en microservicios utilizando Kubernetes**
 
-Abrir una terminal de *Cloud Shell* en la esquina superior derecha de la Terminal de Google Cloud y navegar al directorio `bloque4`. Crear la aplicacion con los siguientes comandos:
+Abrir una terminal de *Cloud Shell* en la esquina superior derecha de la Terminal de Google Cloud y navegar al directorio `bloque4`.
 
-```Shell
-kubectl apply -f productpage.yaml
-kubectl apply -f details.yaml
-kubectl apply -f ratings.yaml
-kubectl apply -f reviews-svc.yaml
-kubectl apply -f reviews-v1-deployment.yaml
+### Uso del script
+
+| Comando         | Descripción                                  |
+| --------------- | -------------------------------------------- |
+| `build <version>`         | Clona, compila y levanta los contenedores.   |
+| `delete`        | Detiene y elimina los contenedores.          |
+
+Ejemplo de comando de construcción de la aplicación
+```bash
+python3 bloque4.py build v1
 ```
 
 ![image](https://github.com/user-attachments/assets/1a640c7b-0840-4b59-ba4c-f356b1f3d2ea)
 
 Se puede ver la aplicación en la IP Externa del servicio `productpage`, en `http://<EXTERNAL_IP>:9080`
 
-### **Destrucción del escenario**
-
-Para poder limpiar y reestablecer el escenario, sin borrar el cluster de Kubernetes de Google Cloud, basta con ejecutar: 
-```Shell
-kubectl delete --all deployments && kubectl delete --all pods && kubectl delete --all services
-```
