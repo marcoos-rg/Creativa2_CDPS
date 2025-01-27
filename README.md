@@ -75,5 +75,9 @@ kubectl apply -f reviews-v1-deployment.yaml
 
 Se puede ver la aplicación en la IP Externa del servicio `productpage`, en `http://<EXTERNAL_IP>:9080`
 
+### **Destrucción del escenario**
 
-
+Para poder limpiar y reestablecer el escenario, sin borrar el cluster de Kubernetes de Google Cloud, basta con ejecutar: 
+```Shell
+kubectl delete --all deployments && kubectl delete --all pods && kubectl delete --all services
+```
