@@ -39,7 +39,7 @@ La aplicación es ahora visible en la URL publica del servicio.
 ---
 ## **Bloque 3: Segmentación de una aplicación monolítica en microservicios utilizando docker-compose**
 
-Iniciar la instancia `bloque1` en la pestaña *Instancias de VM* de la terminal de Google Cloud y conectar con SSH
+Iniciar la instancia `bloque3` en la pestaña *Instancias de VM* de la terminal de Google Cloud y conectar con SSH
 
 ### Uso del script
 
