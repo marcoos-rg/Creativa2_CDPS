@@ -2,6 +2,14 @@
   - ### ***[Guillermo Peláez Cañizáres](https://github.com/Guillepc)***
   - ### ***[Marcos Rosado González](https://github.com/marcoos-rg)***
 ---
+## **Contexto**
+
+Este es un proyecto desarrollado como parte de la asignatura CDPS (Centros de Datos y Provision de Servicios) impartida en la Universidad Politécnica de Madrid (UPM).
+
+En él se despliega una aplicación web completa basada en microservicios en la nube, concretamente en Google Cloud. La aplicación es políglota y se puede encontrar más información y sus archivos de origen [aquí](https://github.com/CDPS-ETSIT/practica_creativa2).
+
+En este proyecto se desarrollan los scripts de Python que automatizan el despliegue de la aplicación de 4 maneras distintas (una por cada bloque) en Google Cloud; y se configuran los recursos que se van a emplear en dicha plataforma para el despligue de la aplicación.
+
 ## **Bloque 1: Despliegue de la aplicación en máquina virtual pesada**
 
 Iniciar la instancia `bloque1` en la pestaña *Instancias de VM* de la terminal de Google Cloud y conectar con SSH
