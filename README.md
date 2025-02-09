@@ -1,4 +1,4 @@
-# **Practica Creativa 2 Grupo 32**
+# **Practica Creativa 2**
   - ### ***[Guillermo Peláez Cañizáres](https://github.com/Guillepc)***
   - ### ***[Marcos Rosado González](https://github.com/marcoos-rg)***
 ---
